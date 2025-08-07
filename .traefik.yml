@@ -1,0 +1,12 @@
+displayName: "Custom OAuth2"
+type: middleware
+
+import: github.com/wretetwlin/traefik-custom-oauth2
+
+summary: "Custom oauth2 plugin to handle access token request"
+
+testData:
+  authGrantRequest:
+    url: https://example.com/request-token
+    user: foo
+    pass: bar
